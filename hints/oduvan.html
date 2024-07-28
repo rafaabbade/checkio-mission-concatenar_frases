@@ -2,60 +2,77 @@
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 1}}
+    Como posso usar um loop for para passar por todos os elementos de uma lista?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 1}}
+    Você pode usar um loop for para iterar por todos os elementos de uma lista da seguinte forma:
+Copie e cole o código abaixo no site online-python.com
+<pre class="brush: python">
+palavras = ["Python", "é", "ótimo"]
+for palavra in palavras:
+    print(palavra)
+</pre>
+A vantagem de usar o for é que você pode processar cada elemento da lista independentemente do tamanho da lista.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 2}}
+    Como concatenar strings em Python usando um loop for?
+
+
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 2}}
+    Para concatenar strings em Python, você pode usar um loop for para adicionar cada string a uma string acumuladora, da mesma forma que fazer com números.
+A vantagem de usar o for é que você pode concatenar as frases sem saber a quantidade de frases antecipadamente.
+
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 3}}
+    Existe uma forma mais eficiente de concatenar várias strings em Python?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 3}}
+    Sim, você pode usar o método join para concatenar todas as strings em uma lista de forma eficiente. Exemplo:
+
+<pre class="brush: python">
+frases = ["Esta é a primeira frase.", "Aqui está a segunda.", "E esta é a terceira."]
+paragrafo = " ".join(frases)
+print(paragrafo)  # Resultado: "Esta é a primeira frase. Aqui está a segunda. E esta é a terceira."
+</pre>
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 4}}
+    7
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 4}}
+    8
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 5}}
+    9
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 5}}
+    10
    </p>
   </div>
  </div>

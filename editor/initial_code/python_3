@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def concatenar_frases(frases):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(concatenar_frases(["Essa é a primeira frase.", "Aqui está a segunda.", "E esta é a terceira."]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert concatenar_frases(["Essa é a primeira frase.", "Aqui está a segunda.", "E esta é a terceira."]) == "Essa é a primeira frase. Aqui está a segunda. E esta é a terceira."
+assert concatenar_frases([]) == " "
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
