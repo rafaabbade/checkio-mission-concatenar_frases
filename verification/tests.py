@@ -17,7 +17,7 @@ TESTS = {
     },
     {
         "input": [[]],
-        "answer": " "
+        "answer": ""
     }
 
     ]
