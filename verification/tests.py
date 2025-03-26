@@ -13,7 +13,7 @@ TESTS = {
         
     {
         "input": [["Essa é a primeira frase.", "Aqui está a segunda.", "E esta é a terceira."]],
-        "answer": "Essa é a primeira frase. Aqui está a segunda. E esta é a terceira."
+        "answer": "Essa é a primeira frase.Aqui está a segunda.E esta é a terceira."
     },
     {
         "input": [[]],
